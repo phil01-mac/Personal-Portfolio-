@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Portfolio of a Computer Science student at Miva University">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">YourName<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-container">
+
+      <!-- Photo on the Left (Circular) -->
+      <div class="hero-image">
+        <img src="profile.jpg" alt="Your Name">
+      </div>
+
+      <!-- Text on the Right -->
+      <div class="hero-text">
+        <p class="greeting">Hello, I'm</p>
+        <h1>Your Full Name</h1>
+        <h2 class="subtitle">Computer Science Student at Miva University</h2>
+        <p class="hero-desc">
+          I'm a 100-level student currently in my second semester.  
+          I'm learning the fundamentals of programming and web development,  
+          and I enjoy building small projects as I grow my skills.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-text">
+        <p>
+          I'm a first-year Computer Science student at Miva University.  
+          I started learning programming this academic year and I'm currently focused on understanding the basics of web development and programming logic.
+        </p>
+        <p>
+          Even though I'm still early in my journey, I enjoy practicing by building small projects.  
+          I'm curious, willing to learn, and always looking for ways to improve my skills.
+        </p>
+        <p>
+          Outside of coding, I like exploring new technologies, watching tutorials, and working on personal learning goals.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Some of the small projects I've worked on while learning</p>
+
+      <div class="projects-grid">
+
+        <!-- Calculator -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Simple Calculator</h3>
+            <p>A basic calculator that can perform addition, subtraction, multiplication, and division. Built to practice JavaScript logic.</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="./projects/calculator/index.html" target="_blank">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- To-Do List -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>To-Do List App</h3>
+            <p>A simple to-do list where users can add and remove tasks. Helped me practice working with the DOM.</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="./projects/todo-list/index.html" target="_blank">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Landing Page -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Product Landing Page</h3>
+            <p>A clean and responsive landing page for a fictional product. Focused on layout and design.</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="./projects/landing-page/index.html" target="_blank">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Portfolio itself -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Personal Portfolio</h3>
+            <p>This website you're currently viewing. Built to practice structuring a real webpage and using GitHub Pages.</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="./index.html">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">Technologies and tools I'm currently learning and practicing</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Currently Learning</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Basics)</li>
+            <li>Responsive Design</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Familiar With</h3>
+          <ul>
+            <li>Basic Python</li>
+            <li>Problem Solving</li>
+            <li>Using VS Code</li>
+            <li>Writing clean code</li>
+            <li>Following tutorials</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Willingness to learn</li>
+            <li>Consistency</li>
+            <li>Attention to detail</li>
+            <li>Time management</li>
+            <li>Curiosity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
+        <div class="edu-card">
+          <span class="edu-year">2025 – Present</span>
+          <h3>B.Sc. Computer Science</h3>
+          <h4>Miva University</h4>
+          <p>
+            Currently in 100 Level, Second Semester.  
+            Learning the foundations of computer science, programming, and web development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">
+        I'm still early in my learning journey, but I'm open to connecting,  
+        learning opportunities, and feedback. Feel free to reach out!
+      </p>
+      <a href="mailto:youremail@example.com" class="btn primary large">youremail@example.com</a>
+      
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Twitter / X</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Your Name · Computer Science Student at Miva University</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
